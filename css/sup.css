@@ -47,6 +47,9 @@
     .owl-hover{
         display: none;
     }
+    .modalDialog > div {
+        width: 40%;
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -137,6 +140,9 @@
     .bot-logo{
         flex-grow: 1 !important;
         margin: 1rem auto;
+    }
+    .modalDialog > div {
+        width: 55%;
     }
 }
 @media screen and (max-width: 540px){
@@ -273,6 +279,9 @@
     #carousel{
         display: none;
     }
+    .modalDialog > div {
+        width: 75%;
+    }
 }
 @media screen and (max-width: 427px){
     .bot-intro:after{
@@ -314,5 +323,8 @@
     }
     .bot-intro span{
         font-size: 3.5rem;
+    }
+    .modalDialog > div {
+        width: 90%;
     }
 }
