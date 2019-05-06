@@ -1,4 +1,4 @@
-@media screen and (min-width:2270px){
+@media screen and (max-width:1919px){
     .owl-hover{
         display: none;
     }
@@ -6,9 +6,6 @@
 @media screen and (max-width:1270px){
     html{
         font-size: 9px;
-    }
-    body{
-        width: 99vw;
     }
     .head, .products-block, .call-back, .carousel-center h2, .offer, .price, .why, .faq, .faq-bot, .footer{
         width: 100%;
@@ -326,5 +323,10 @@
     }
     .modalDialog > div {
         width: 90%;
+    }
+}
+@media screen and (max-width: 425px){
+    .calc-box {
+        flex-direction: column;
     }
 }
